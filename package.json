@@ -1,0 +1,20 @@
+{
+  "name": "probable-pancake",
+  "version": "1.0.0",
+  "description": "Node.JS server for catching orders through web-hooks, from eg. TradingView and executing them through CCXT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnell0/probable-pancake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnell0/probable-pancake/issues"
+  },
+  "homepage": "https://github.com/arnell0/probable-pancake#readme"
+}
