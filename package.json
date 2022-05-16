@@ -18,7 +18,16 @@
   },
   "homepage": "https://github.com/arnell0/probable-pancake#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "body-parser": "^1.20.0",
-    "express": "^4.18.0"
+    "ccxt": "^1.81.81",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "nodemon": "^2.0.4",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "utf8": "^3.0.0",
+    "ws": "^8.6.0"
   }
 }

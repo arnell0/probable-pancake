@@ -1,16 +1,4 @@
-const express = require("express")
-const bodyParser = require("body-parser")
+const { tickers, createLimitOrder } = require('./functions');
 
-const app = express()
-const PORT = 3000
-app.use(bodyParser.json())
+createLimitOrder({ticker: tickers.BTCUSDT, type: "limit", side: "sell", amount: 1 });
 
-app.post("/hook", (req, res) => {
-    const order = req.body
-    console.log(order)
-    res.status(200).send("hej").end() 
-})
-
-
-
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
