@@ -1,7 +1,7 @@
 require('dotenv').config();
 const {API_KEY, API_SECRET, API_PASSWORD} = process.env
-const ccxt = require ('ccxt');
-const k = require('/root/probable-pancake/node_modules/ccxt/js/kucoinfutures.js')
+const ccxt = require('ccxt');
+const k = require('/root/projects/probable-pancake/node_modules/ccxt/js/kucoinfutures.js')
 
 const exchange = new k({
     apiKey: API_KEY,

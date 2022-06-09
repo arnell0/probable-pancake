@@ -39,7 +39,7 @@ setInterval(async () => {
         console.log("average percentage: " + average);
 
         if (average < -15) {
-            console.log("percentage is less than -20");
+            console.log("percentage is less than -15, creating limit order");
             createLimitOrderTimeout({ticker: tickers.BTCUSDT, type: "limit", side: "buy", amount: 1 });
         }
     } else {
