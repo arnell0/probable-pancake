@@ -23,8 +23,7 @@ app.post("/api/probable-pancake", (req, res) => {
     console.log("\n\n\n")
 
     res.status(200).end() // Responding is important
-    fs.writeFileSync("./logs/probable-pancake.json", JSON.stringify(_req, null, 2))
-
+    fs.appendFileSync("/root/projects/probable-pancake/logs/probable-pancake.json", JSON.stringify(_req, null, 2) + "\n\n\n")
     //parseRequest(req.body)
 })
 
